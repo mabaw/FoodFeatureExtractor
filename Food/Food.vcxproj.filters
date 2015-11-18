@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Setting">
+      <UniqueIdentifier>{0d5993af-b80b-40f3-bf03-fbe7d24ac35f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Result">
+      <UniqueIdentifier>{d1db1d10-814f-42f2-b966-ae55dd23cabc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="svm">
+      <UniqueIdentifier>{cbba7a11-365a-45fc-8f50-c70d244c41b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="directory.txt">
+      <Filter>Setting</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_1_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_2_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_3_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_4_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_5_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_6_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_7_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_8_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_9_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\1_10_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\2_1_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\2_2_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\3_1_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\3_2_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\4_1_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\4_2_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\5_1_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\5_2_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\6_1_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\..\result_wide\Segmentations\widefood\wide\6_2_s.txt">
+      <Filter>Result</Filter>
+    </None>
+    <None Include="..\Food.sdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainSetting.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="FeatureExtracter.h" />
+    <ClInclude Include="svm\svm.h">
+      <Filter>svm</Filter>
+    </ClInclude>
+    <ClInclude Include="Classifier.h" />
+    <ClInclude Include="FoodGUI.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Util.h" />
+    <ClInclude Include="FeatureData.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Food.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="FeatureExtracter.cpp" />
+    <ClCompile Include="svm\svm.cpp">
+      <Filter>svm</Filter>
+    </ClCompile>
+    <ClCompile Include="Classifier.cpp" />
+    <ClCompile Include="FoodGUI.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FoodGUI.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
